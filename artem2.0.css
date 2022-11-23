@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+p {
+    margin: 0 0 4px;
+}
+
+a {
+    color: #bf4668;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Obshakovskie classi */
+.wrapper{
+    max-width: 900px;
+    margin: 48px auto;
+}
+
+.text {
+    margin: 10px 20px 30px 0px;
+}
+
+.heading img {
+    background-color: #FFE8DB;
+    border: 6px solid #bf4668;
+    border-radius: 100px 15px 100px 15px;
+    margin-right: 24px;
+}
+/* Heading */
+.heading {
+    display: flex;
+    margin-bottom: 1px;
+}
+
+.heading .text{
+    padding-top: 20px;
+}
+
+.heading ul{
+    padding-left: 24px;   
+}
+
+/* Social */
+.social ul{
+    padding-left: 24px;
+}
+
+.social a:hover {
+    opacity: 0.3;
+}
+
+/* Questions */
+.questions{
+    background-color: #bf4668;
+    border-radius: 10px;
+    padding: 1px 16px;
+}
+
+.questions .labels-inputs{
+    display: flex;
+}
+.questions label, .questions input{
+    display: block;
+}
+.questions input{
+    border: 1px solid transparent;
+    max-width: 350px;
+    width: 350px;
+    margin-bottom: 16px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0 16px;
+    outline: none;
+}
+.questions label{
+    margin-bottom: 28px;
+}
+.questions .labels{
+    margin-right: 16px;
+}
+.questions input:hover{
+    border-color: black;
+}
+
+
+.questions button{
+    transition: all 0.3s ease-in-out;
+    padding: 8px 32px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.questions button:hover{
+    transform:scale(1.1);
+}
+.questions{
+    color: #FFE8DB;
+}
